@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Sym - Exercices 1</string>
+
+    <!-- section 1 -->
+    <string name="section_1">Exercise 1</string>
+    <string name="sct1_click_button">Click me !</string>
+    <plurals name="sct1_click_counter">
+        <!--
+            In english, zero isn't grammatically different from 2
+            Detail: http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html
+            See the french text resources file
+         -->
+        <item quantity="one">One click</item>
+        <item quantity="other">%1$d clicks</item>
+    </plurals>
+
+    <!-- section 2 -->
+    <string name="section_2">Exercise 2</string>
+
+    <string name="sct2_pb_title">ProgressBar</string>
+    <string name="sct2_pb_btn">Click me !</string>
+
+    <string name="sct2_sb_title">Progressbar</string>
+    <string name="sct2_sb_val">%1$d</string>
+
+    <string name="sct2_cb_title">CheckBox</string>
+    <string name="sct2_cb_validate">Validate</string>
+
+    <string name="sct_cb_val1">Choice 1</string>
+    <string name="sct_cb_val2">Choice 2</string>
+
+    <string name="sct2_rb_title">Radio Button</string>
+
+    <string name="sct_rb_val1">Choice 1</string>
+    <string name="sct_rb_val2">Choice 2</string>
+    <string name="sct_rb_val3">Choice 3</string>
+    <string name="sct_rb_val4">Choice 4</string>
+    <string name="sct_rb_val5">Choice 5</string>
+    <string name="sct_rb_val6">Choice 6</string>
+
+    <string name="sct2_sp_title">Spinner</string>
+
+    <string-array name="country_arrays">
+        <item>Switzerland</item>
+        <item>Germany</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Spain</item>
+        <item>England</item>
+        <item>United States</item>
+    </string-array>
+
+    <!-- section 3 -->
+    <string name="section_3">Exercise 3</string>
+    <string name="sct3_lv_btn">Click me !</string>
+    <string name="sct3_empty">Empty !</string>
+
+    <!-- section 3 advanced -->
+    <string name="section_3_adv">Exercise 3 - Avancé</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <plurals name="sct1_click_counter">
+        <!--
+            In french zero isn't grammatically different from 1
+            Detail: http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html
+            See the english text resources file
+         -->
+        <item quantity="one">%1$d clic</item>
+        <item quantity="other">%1$d clics</item>
+    </plurals>
+
+</resources>
